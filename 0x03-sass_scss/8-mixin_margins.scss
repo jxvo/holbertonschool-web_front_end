@@ -1,7 +1,7 @@
 /* margin mixin */
-@mixin margin-horizontal($margin-left, $margin-right) {
-    margin-left: $margin-left;
-    margin-right: $margin-right;
+@mixin margin-horizontal($size) {
+    margin-left: $size;
+    margin-right: $size;
 }
 
 body {
