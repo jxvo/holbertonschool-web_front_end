@@ -1,0 +1,10 @@
+/* assign colors to elements using a Sass variable */
+$jank: #3D3D3D;
+
+body {
+    color: $jank;
+}
+
+p {
+    color: $jank;
+}
