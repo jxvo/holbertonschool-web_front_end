@@ -1,0 +1,17 @@
+/* extended list of delcarations */
+$green: #00FF00;
+$red: #FF0000;
+
+.info {
+    font-size: 12px;
+}
+
+.success {
+    @extend .info;
+    color: $green;
+}
+
+.warning {
+    @extend .info;
+    color: $red;
+}
