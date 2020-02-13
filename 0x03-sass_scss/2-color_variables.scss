@@ -1,0 +1,16 @@
+/* assign colors using two Sass variables */
+$jank: #3d3d3d;
+$dank: #6d6d6d;
+
+body {
+    color: $jank;
+    background-color: $dank;
+}
+
+p {
+    color: $jank;
+}
+
+h2 {
+    background-color: $dank;
+}
